@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffde59"
+    tools:context=".AddOwnerActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Name" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnSaveOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Owner"
+            android:background="@drawable/button_style"
+            android:textColor="#ffde59"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffde59"
+    tools:context=".AddUserActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Name" />
+
+        <EditText
+            android:id="@+id/etFamilyMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Family Members"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etOccupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Occupation" />
+
+        <EditText
+            android:id="@+id/etIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Income" />
+
+        <!-- RadioGroup for Status -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APL" />
+
+            <RadioButton
+                android:id="@+id/radioInactive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPL" />
+
+            <RadioButton
+                android:id="@+id/radioPending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AY" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSaveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save User"
+            android:background="@drawable/button_style"
+            android:textColor="#ffde59"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

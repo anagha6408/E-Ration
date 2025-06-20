@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffde59"
+    tools:context=".admin">
+    <!-- Title for the Admin Page -->
+    <TextView
+        android:id="@+id/textViewAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Admin Panel"
+        android:textAlignment="center"
+        android:textColor="#131111"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Buttons for Admin Operations -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdminTitle">
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style"
+            android:text="Add User"
+            android:textColor="#ffde59"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnAddOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style"
+            android:text="Add Owner"
+            android:textColor="#ffde59"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDisUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style"
+            android:text="Display Users"
+            android:textColor="#ffde59"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDisOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style"
+            android:text="Display Owners"
+            android:textColor="#ffde59"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/btnDisGoods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style"
+            android:text="Display Goods"
+            android:textColor="#ffde59"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

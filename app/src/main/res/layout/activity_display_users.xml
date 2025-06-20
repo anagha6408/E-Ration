@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffde59"
+    tools:context=".DisplayUsersActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- ListView for APL Users -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APL Users"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ListView
+            android:id="@+id/listViewAPLUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ListView for BPL Users -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPL Users"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ListView
+            android:id="@+id/listViewBPLUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ListView for AY Users -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AY Users"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ListView
+            android:id="@+id/listViewAYUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

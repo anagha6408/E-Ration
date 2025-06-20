@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffde59"
+    tools:context=".user">
+
+    <!-- Title -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <!-- Displaying User Name -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginTop="20dp"
+            android:text="User Details"
+            android:textAlignment="center"
+            android:textColor="#131111"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Displaying Number of Family Members -->
+        <TextView
+            android:id="@+id/user_family_members_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Family Members"
+            android:textSize="16sp" />
+
+        <!-- Displaying Age -->
+        <TextView
+            android:id="@+id/user_age_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="16sp" />
+
+        <!-- Displaying Occupation -->
+        <TextView
+            android:id="@+id/user_occupation_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupation"
+            android:textSize="16sp" />
+
+        <!-- Displaying Income -->
+        <TextView
+            android:id="@+id/user_income_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textSize="16sp" />
+
+        <!-- Displaying User Status -->
+        <TextView
+            android:id="@+id/user_status_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Status"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            ></LinearLayout>
+
+        <!-- ListView for Goods associated with the user -->
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

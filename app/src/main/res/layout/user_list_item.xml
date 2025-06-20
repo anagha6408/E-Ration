@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#ffde59"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvOwnerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvFamilyMembers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Members"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvOccupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupation"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvIncome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="14sp"
+            android:textColor="#555555" />
+
+    </LinearLayout>

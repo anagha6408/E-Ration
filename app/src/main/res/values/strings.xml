@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E Ration</string>
+    <string-array name="usertype">
+        <item>admin</item>
+        <item>owner</item>
+        <item>user</item>
+    </string-array>
+    <string-array name="user_types">
+        <item>BPL</item>
+        <item>APL</item>
+        <item>AY</item>
+    </string-array>
+</resources>
